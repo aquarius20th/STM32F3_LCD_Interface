@@ -4,9 +4,7 @@
 #include "stm32f3_discovery.h"
 #include "stm32f3_discovery_accelerometer.h"
 #include "stm32f3_discovery_gyroscope.h"
-
 #include "common.h"
-
 
 /* Private variables ---------------------------------------------------------*/
 const Led_TypeDef LEDs[] = {LED3, LED4, LED5, LED6, LED7, LED8, LED9, LED10};
@@ -27,8 +25,6 @@ int main(int argc, char **argv)
   HAL_Init();
 
   /* Start the Watchdog */
-
-
   TerminalInit();  /* Initialize UART and USB */
   /* Configure the LEDs... */
   for(i=0; i<numLEDs; i++) {
