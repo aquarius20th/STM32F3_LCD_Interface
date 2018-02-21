@@ -4,7 +4,7 @@
 
 ● Digital Multimeter ● Oscilloscope and probes ● Linux Environment 
 
-● Commands present and work to create initialize the display, and show user supplied message
+● Commands present and work to create initialize the display, and show/clear user supplied message
 
  This project is a simple monitor program for the STM32F303VCT6 on the STM32F3 Discovery board.  This processor has 256K of 
  flash, and 48K of RAM. The Discovery board has 10 LEDs, a 3 axis Gyroscope, 3 axis accelerometer, and a 3 axis magnetic sensor.
